@@ -8,15 +8,20 @@ html{ font-size: 1em; line-height: 1.4; }
 
 
 body { background-color : #025669  ;
-font-family: #FFFFFF; }
+font-family: Arial, Helvetica, sans-serif; 
+color: white;
 
-#wrapper {
+
+}
+header {color: #025669;}
+#wrapper, {
 max-width: 900px;
 min-width: 320px;
 margin-left: auto;
 margin-right: auto;
-
-
+float: left;
+margin-left: auto;
+  margin-right: auto;
 }
 
 img {
@@ -24,22 +29,51 @@ img {
 float: right;
 border-width:1px;
 border-color:#ccc;
--moz-border-radius:3px;
--webkit-border-radius:3px;
 border-radius:3px;
-
+box-shadow: 0 2px 4px  rgba(0, 0, 0, 0.2)
 
 
 }
 
 header {
 background-color: white;
-box-shadow: 0 2px 4px  rgba(0, 0, 0, 0.2)
+border-radius:3px;
 
+}
+
+
+h4{
+
+    margin-left:7px;
+}
+
+h2{
+
+    margin-left:7px;
 }
 
 h1 {
   font-family: source-sans-pro, sans-serif;
   font-weight: 900;
   font-style: normal;
+  margin-left:7px;
+}
+
+
+footer ul{
+    padding: 0;
+}
+
+footer li {
+
+display: inline-block;
+font-size: 15px;
+padding: 10px;
+margin-left: 0px;
+}
+
+hr {
+  border: 1px solid white;
+  margin-left: 0px;
+  margin-right: 100px;
 }
